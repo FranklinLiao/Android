@@ -59,7 +59,7 @@ import com.baidu.mapapi.map.MyLocationOverlay;
 import com.baidu.mapapi.map.OverlayItem;
 import com.baidu.platform.comapi.basestruct.GeoPoint;
 
-
+//µÚ¶þ´Î²âÊÔ
 public class MainActivity extends Activity {
 	JSONParser jParser = new JSONParser();	
 	   // url to get all points
