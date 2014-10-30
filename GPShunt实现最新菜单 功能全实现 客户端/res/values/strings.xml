@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPShunt</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="put">放置</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="quit">退出</string>
+    <string name="title">藏宝图</string>
+    <string name="title_activity_put">放置新宝物</string>
+    <string name="title_activity_rep">替换原有宝物</string>
+    <string name="title_activity_help">帮助</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_main_application">MainApplication</string>
+    <string name="title_activity_list">藏宝点信息</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white">
+    
+    <TextView android:id="@+id/newput"
+        android:text="待放宝物"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText 
+        android:id="@+id/edit_forput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:text="可以不填写"  
+        android:layout_below="@id/newput"      
+        />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_forput"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="确定" 
+        />
+    <Button  
+        android:id="@+id/cancel"      
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignTop="@id/ok"
+        android:layout_toLeftOf="@id/ok"
+        android:text="取消" 
+        />
+    
+
+</RelativeLayout>

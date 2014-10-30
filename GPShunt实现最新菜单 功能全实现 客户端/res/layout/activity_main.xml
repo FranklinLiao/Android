@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/main">
+        <TextView 
+                android:id="@+id/title1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:text="@string/title" />
+        <!--
+        <Button  
+        android:id="@+id/refresh"  
+        android:layout_width="wrap_content"  
+        android:layout_height="35dp" 
+        android:layout_below="@id/title1" 
+        android:layout_alignRight="@id/bmapsView"  
+        android:layout_alignTop="@id/bmapsView"  
+        android:text="更新藏宝图" />  
+          -->
+          <com.baidu.mapapi.map.MapView
+	    android:id="@+id/bmapsView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_above="@+id/telphone"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:clickable="true" >
+
+	</com.baidu.mapapi.map.MapView>
+		
+ 
+        <Button
+	    android:id="@+id/tel"
+	    android:layout_width="wrap_content"
+	    android:layout_height="40dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginBottom="46dp"
+	    android:text="服务器电话号码：" />
+
+	
+        
+       <EditText
+           android:id="@+id/telphone"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentRight="true"
+           android:layout_alignTop="@id/tel"
+           android:layout_toRightOf="@id/tel"
+           android:ems="10"
+           android:hint="请输入电话号码！"
+           android:numeric="integer" >
+
+    
+       </EditText>
+		<!--  
+       <Button
+           android:id="@+id/mypos12"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_alignParentBottom="true"
+           android:layout_centerInParent="true"
+           android:text="发送我的位置" 
+         />
+         -->
+
+        <Button  
+        android:id="@+id/mypos"  
+        android:layout_width="wrap_content"  
+        android:layout_height="40dp" 
+        android:layout_alignParentBottom="true"
+	    android:layout_centerInParent="true"
+	    android:layout_marginLeft="78dp"
+        android:text="我的位置" />
+	
+  <!-- 
+	<Button
+	    android:id="@+id/mypos"
+	    android:layout_width="wrap_content"
+	    android:layout_height="40dp"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="78dp"
+	    android:text="发送我的位置" />
+      -->   
+</RelativeLayout>

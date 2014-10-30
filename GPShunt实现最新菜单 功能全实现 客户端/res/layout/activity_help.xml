@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"    
+    >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item1"        
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="游戏介绍"
+         />
+    <TextView
+        android:id="@+id/item11"  
+        android:textSize="15sp" 
+        android:textColor="@color/black"    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\n
+        本游戏名为地理藏宝（Geocaching），在国内又称“GPS寻宝/藏宝”,是一种风靡全球的利用GPS藏宝和寻宝的游戏。“宝藏”可能只是一个毛绒玩具或钥匙圈，寻宝过程却能满足人们户外活动锻炼、休闲与娱乐的目的。\n
+        本质上来说，地理藏宝是玩家使用手持GPS设备或智能手机进行的变相捉迷藏游戏。GPS寻宝/藏宝这项活动并不贵。你可以购买手持GPS，也可以用装了相关软件的智能手机，就准备好可以出发了.尽管采用现代技术，这项业余活动以玩家的诚信为本，有赖于宝盒埋藏者的聪明才智和公共精神。\n
+       本软件为玩家提供了一个很好的平台，玩家可以在android智能手机上安装本软件，来进行寻宝活动。\n "
+         />
+    
+    <TextView
+        android:id="@+id/item2"        
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="软件使用"
+         />
+    <TextView
+        android:id="@+id/item21" 
+        android:textSize="15sp"    
+        android:textColor="@color/black"   
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\n
+        主界面是一张“藏宝图”，将所有宝物的地点以及用户所在位置显示在地图上，以便玩家查看 。点击“我的位置”，可以使地图回到以用户所在位置为中心，并提示用户经纬度信息。点击“更新藏宝图”，会从服务器更新所有“藏宝点”（宝物所在位置）的位置信息，并以标注的形式显示在地图上。\n
+        点击 手机上的菜单键会调出菜单，用户到达藏宝点后，点击“放置”，代表用户在当前位置放置一个新宝物，系统会将用户当前位置信息发送到服务器并新建一个藏宝点，下次更新藏宝图时可以看到新加的藏宝点.\n
+        点击地图上的藏宝点，会弹出一个对话框，点击“取走”，代表用户将该藏宝点的宝物取走，服务器会将此藏宝点删除，下次更新时将不再显示；点击“替换”，代表用户替换了此藏宝点的宝物，服务器会更新该藏宝点的信息。"
+         />
+    
+
+</LinearLayout>
+</ScrollView>

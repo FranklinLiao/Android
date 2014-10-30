@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data>
+    <id>1</id>
+    <lat>39.969068</lat>
+    <lon>116.362853</lon>
+  </data>
+  <data>
+    <id>2</id>
+    <lat>39.969124</lat>
+    <lon>116.3628</lon>
+  </data>
+  <data>
+    <id>3</id>
+    <lat>39.917723</lat>
+    <lon>116.3722</lon>
+  </data>
+</root>
